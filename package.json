@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://novittana.github.io/followers-card-list",
   "scripts": {
     "build": "npx webpack --config webpack.config.prod.js --mode=production",
     "watch": "npx webpack --watch",

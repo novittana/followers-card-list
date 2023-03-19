@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "Elon Reeve Musk",
+      "tweets": 777,
+      "followers": 100500,
+      "avatar": "./images/boy.png"
+    },
+    {
+      "id": 2,
+      "user": "Antonio Banderas",
+      "tweets": 300,
+      "followers": 10001,
+      "avatar": "./images/boy.png"
+    },
+    {
+      "id": 3,
+      "user": "Martin Willey",
+      "tweets": 1000,
+      "followers": 1000000,
+      "avatar": "./images/boy.png"
+    }
+  ]
+}

@@ -19,10 +19,14 @@ function generateCardList(userList) {
         const currentFollowersText = getFollowerCounterCurrentText(id);
         const buttonActiveStyle = isFollowing(id) ? 'active' : '';
 
+
         return `
             <li class="item" id=${id}>
                 <img class="logo" src="./images/logo.svg" alt="logo" width="76">
-                <img class="avatar" src=${avatar} alt=${user} width="80"/>
+                 <div class="avatar-wrap"> 
+                    <img src="./images/framewithback.svg">
+                    <img class="avatar" src=${avatar} alt=${user}/>
+                </div>
                 <div class="info">
                     <p> ${tweets} tweets</p>
                     <p> <span class="followers-counter-${id}">${currentFollowersText}</span> Followers</p>

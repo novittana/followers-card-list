@@ -5,21 +5,21 @@
       "user": "Elon Reeve Musk",
       "tweets": 777,
       "followers": 100500,
-      "avatar": "./images/boy.png"
+      "avatar": "./images/elon-musk.jpg"
     },
     {
       "id": 2,
       "user": "Antonio Banderas",
       "tweets": 300,
       "followers": 10001,
-      "avatar": "./images/boy.png"
+      "avatar": "./images/antonio-banderas.jpg"
     },
     {
       "id": 3,
       "user": "Martin Willey",
       "tweets": 1000,
       "followers": 1000000,
-      "avatar": "./images/boy.png"
+      "avatar": "./images/hansel.svg"
     }
   ]
 }

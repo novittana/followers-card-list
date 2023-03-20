@@ -1,16 +1,20 @@
+.frame{
+  width: 1702px;
+}
 
 .list {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 168px;
+  padding-bottom: 268px;
   flex-wrap: wrap;
   gap:48px;
 }
 
 .item {
   font-family: 'Montserrat', sans-serif;
-  background-image: url("../images/picture.svg"), url("../images/rectangle.svg"), linear-gradient(
+  background-image:url("../images/picture.svg"), url("../images/rectangle.svg"),  linear-gradient(
     114.99deg,
     #471ca9 -0.99%,
     #5736a3 54.28%,
@@ -30,6 +34,15 @@
   line-height: 24px;
   text-transform: uppercase;
   padding: 20px 36px 36px 20px;
+}
+
+.avatar-wrap {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  margin-top:136px;
 }
 
 .btn-follow {
@@ -67,7 +80,11 @@
 }
 
 .avatar {
-   margin: 0 auto;
-  margin-top:136px;
-
+  top: 8px;
+  left: 12px;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  position: absolute;
 }
